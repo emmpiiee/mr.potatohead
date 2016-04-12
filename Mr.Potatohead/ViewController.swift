@@ -9,7 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBAction func SwitchOn(sender: AnyObject) {
+        print("aan of uit \(sender.tag)")
+    }
+    
+    @IBOutlet weak var NamePotato: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
