@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5000D341CBD42CC0027475D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5000D331CBD42CC0027475D /* AppDelegate.swift */; };
+		B5000D361CBD42CC0027475D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5000D351CBD42CC0027475D /* ViewController.swift */; };
+		B5000D391CBD42CC0027475D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5000D371CBD42CC0027475D /* Main.storyboard */; };
+		B5000D3B1CBD42CC0027475D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5000D3A1CBD42CC0027475D /* Assets.xcassets */; };
+		B5000D3E1CBD42CC0027475D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5000D3C1CBD42CC0027475D /* LaunchScreen.storyboard */; };
+		B5000D491CBD42CC0027475D /* Mr_PotatoheadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5000D481CBD42CC0027475D /* Mr_PotatoheadTests.swift */; };
+		B5000D541CBD42CC0027475D /* Mr_PotatoheadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5000D531CBD42CC0027475D /* Mr_PotatoheadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5000D451CBD42CC0027475D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5000D281CBD42CC0027475D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5000D2F1CBD42CC0027475D;
+			remoteInfo = Mr.Potatohead;
+		};
+		B5000D501CBD42CC0027475D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5000D281CBD42CC0027475D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5000D2F1CBD42CC0027475D;
+			remoteInfo = Mr.Potatohead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5000D301CBD42CC0027475D /* Mr.Potatohead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mr.Potatohead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5000D331CBD42CC0027475D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5000D351CBD42CC0027475D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5000D381CBD42CC0027475D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5000D3A1CBD42CC0027475D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5000D3D1CBD42CC0027475D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5000D3F1CBD42CC0027475D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5000D441CBD42CC0027475D /* Mr.PotatoheadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mr.PotatoheadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5000D481CBD42CC0027475D /* Mr_PotatoheadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mr_PotatoheadTests.swift; sourceTree = "<group>"; };
+		B5000D4A1CBD42CC0027475D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5000D4F1CBD42CC0027475D /* Mr.PotatoheadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mr.PotatoheadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5000D531CBD42CC0027475D /* Mr_PotatoheadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mr_PotatoheadUITests.swift; sourceTree = "<group>"; };
+		B5000D551CBD42CC0027475D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5000D2D1CBD42CC0027475D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5000D411CBD42CC0027475D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5000D4C1CBD42CC0027475D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5000D271CBD42CC0027475D = {
+			isa = PBXGroup;
+			children = (
+				B5000D321CBD42CC0027475D /* Mr.Potatohead */,
+				B5000D471CBD42CC0027475D /* Mr.PotatoheadTests */,
+				B5000D521CBD42CC0027475D /* Mr.PotatoheadUITests */,
+				B5000D311CBD42CC0027475D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5000D311CBD42CC0027475D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5000D301CBD42CC0027475D /* Mr.Potatohead.app */,
+				B5000D441CBD42CC0027475D /* Mr.PotatoheadTests.xctest */,
+				B5000D4F1CBD42CC0027475D /* Mr.PotatoheadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5000D321CBD42CC0027475D /* Mr.Potatohead */ = {
+			isa = PBXGroup;
+			children = (
+				B5000D331CBD42CC0027475D /* AppDelegate.swift */,
+				B5000D351CBD42CC0027475D /* ViewController.swift */,
+				B5000D371CBD42CC0027475D /* Main.storyboard */,
+				B5000D3A1CBD42CC0027475D /* Assets.xcassets */,
+				B5000D3C1CBD42CC0027475D /* LaunchScreen.storyboard */,
+				B5000D3F1CBD42CC0027475D /* Info.plist */,
+			);
+			path = Mr.Potatohead;
+			sourceTree = "<group>";
+		};
+		B5000D471CBD42CC0027475D /* Mr.PotatoheadTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5000D481CBD42CC0027475D /* Mr_PotatoheadTests.swift */,
+				B5000D4A1CBD42CC0027475D /* Info.plist */,
+			);
+			path = Mr.PotatoheadTests;
+			sourceTree = "<group>";
+		};
+		B5000D521CBD42CC0027475D /* Mr.PotatoheadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5000D531CBD42CC0027475D /* Mr_PotatoheadUITests.swift */,
+				B5000D551CBD42CC0027475D /* Info.plist */,
+			);
+			path = Mr.PotatoheadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5000D2F1CBD42CC0027475D /* Mr.Potatohead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5000D581CBD42CC0027475D /* Build configuration list for PBXNativeTarget "Mr.Potatohead" */;
+			buildPhases = (
+				B5000D2C1CBD42CC0027475D /* Sources */,
+				B5000D2D1CBD42CC0027475D /* Frameworks */,
+				B5000D2E1CBD42CC0027475D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mr.Potatohead;
+			productName = Mr.Potatohead;
+			productReference = B5000D301CBD42CC0027475D /* Mr.Potatohead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5000D431CBD42CC0027475D /* Mr.PotatoheadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5000D5B1CBD42CC0027475D /* Build configuration list for PBXNativeTarget "Mr.PotatoheadTests" */;
+			buildPhases = (
+				B5000D401CBD42CC0027475D /* Sources */,
+				B5000D411CBD42CC0027475D /* Frameworks */,
+				B5000D421CBD42CC0027475D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5000D461CBD42CC0027475D /* PBXTargetDependency */,
+			);
+			name = Mr.PotatoheadTests;
+			productName = Mr.PotatoheadTests;
+			productReference = B5000D441CBD42CC0027475D /* Mr.PotatoheadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5000D4E1CBD42CC0027475D /* Mr.PotatoheadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5000D5E1CBD42CC0027475D /* Build configuration list for PBXNativeTarget "Mr.PotatoheadUITests" */;
+			buildPhases = (
+				B5000D4B1CBD42CC0027475D /* Sources */,
+				B5000D4C1CBD42CC0027475D /* Frameworks */,
+				B5000D4D1CBD42CC0027475D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5000D511CBD42CC0027475D /* PBXTargetDependency */,
+			);
+			name = Mr.PotatoheadUITests;
+			productName = Mr.PotatoheadUITests;
+			productReference = B5000D4F1CBD42CC0027475D /* Mr.PotatoheadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5000D281CBD42CC0027475D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Emma Immink";
+				TargetAttributes = {
+					B5000D2F1CBD42CC0027475D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B5000D431CBD42CC0027475D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B5000D2F1CBD42CC0027475D;
+					};
+					B5000D4E1CBD42CC0027475D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B5000D2F1CBD42CC0027475D;
+					};
+				};
+			};
+			buildConfigurationList = B5000D2B1CBD42CC0027475D /* Build configuration list for PBXProject "Mr.Potatohead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5000D271CBD42CC0027475D;
+			productRefGroup = B5000D311CBD42CC0027475D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5000D2F1CBD42CC0027475D /* Mr.Potatohead */,
+				B5000D431CBD42CC0027475D /* Mr.PotatoheadTests */,
+				B5000D4E1CBD42CC0027475D /* Mr.PotatoheadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5000D2E1CBD42CC0027475D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5000D3E1CBD42CC0027475D /* LaunchScreen.storyboard in Resources */,
+				B5000D3B1CBD42CC0027475D /* Assets.xcassets in Resources */,
+				B5000D391CBD42CC0027475D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5000D421CBD42CC0027475D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5000D4D1CBD42CC0027475D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5000D2C1CBD42CC0027475D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5000D361CBD42CC0027475D /* ViewController.swift in Sources */,
+				B5000D341CBD42CC0027475D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5000D401CBD42CC0027475D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5000D491CBD42CC0027475D /* Mr_PotatoheadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5000D4B1CBD42CC0027475D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5000D541CBD42CC0027475D /* Mr_PotatoheadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5000D461CBD42CC0027475D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5000D2F1CBD42CC0027475D /* Mr.Potatohead */;
+			targetProxy = B5000D451CBD42CC0027475D /* PBXContainerItemProxy */;
+		};
+		B5000D511CBD42CC0027475D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5000D2F1CBD42CC0027475D /* Mr.Potatohead */;
+			targetProxy = B5000D501CBD42CC0027475D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5000D371CBD42CC0027475D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5000D381CBD42CC0027475D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5000D3C1CBD42CC0027475D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5000D3D1CBD42CC0027475D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5000D561CBD42CC0027475D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5000D571CBD42CC0027475D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5000D591CBD42CC0027475D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mr.Potatohead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.Mr-Potatohead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5000D5A1CBD42CC0027475D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mr.Potatohead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.Mr-Potatohead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5000D5C1CBD42CC0027475D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Mr.PotatoheadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.Mr-PotatoheadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mr.Potatohead.app/Mr.Potatohead";
+			};
+			name = Debug;
+		};
+		B5000D5D1CBD42CC0027475D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Mr.PotatoheadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.Mr-PotatoheadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mr.Potatohead.app/Mr.Potatohead";
+			};
+			name = Release;
+		};
+		B5000D5F1CBD42CC0027475D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Mr.PotatoheadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.Mr-PotatoheadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mr.Potatohead;
+			};
+			name = Debug;
+		};
+		B5000D601CBD42CC0027475D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Mr.PotatoheadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.Mr-PotatoheadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mr.Potatohead;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5000D2B1CBD42CC0027475D /* Build configuration list for PBXProject "Mr.Potatohead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5000D561CBD42CC0027475D /* Debug */,
+				B5000D571CBD42CC0027475D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5000D581CBD42CC0027475D /* Build configuration list for PBXNativeTarget "Mr.Potatohead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5000D591CBD42CC0027475D /* Debug */,
+				B5000D5A1CBD42CC0027475D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5000D5B1CBD42CC0027475D /* Build configuration list for PBXNativeTarget "Mr.PotatoheadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5000D5C1CBD42CC0027475D /* Debug */,
+				B5000D5D1CBD42CC0027475D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5000D5E1CBD42CC0027475D /* Build configuration list for PBXNativeTarget "Mr.PotatoheadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5000D5F1CBD42CC0027475D /* Debug */,
+				B5000D601CBD42CC0027475D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5000D281CBD42CC0027475D /* Project object */;
+}
