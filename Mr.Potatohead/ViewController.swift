@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Moustache: UIImageView!
     @IBOutlet weak var Nose: UIImageView!
     @IBOutlet weak var Shoes: UIImageView!
+    @IBOutlet weak var DressUp: UITextField!
     
     @IBAction func SwitchOn(sender: AnyObject) {
         print("aan of uit \(sender.tag)")
