@@ -60,6 +60,12 @@
                                     <action selector="SwitchOn:" destination="BYZ-38-t0r" eventType="valueChanged" id="Lx3-J3-KLn"/>
                                 </connections>
                             </switch>
+                            <switch opaque="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6cA-Gd-wfp">
+                                <rect key="frame" x="310" y="410" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchOn:" destination="BYZ-38-t0r" eventType="valueChanged" id="yfO-yb-wM1"/>
+                                </connections>
+                            </switch>
                             <switch opaque="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="glC-TW-mpU">
                                 <rect key="frame" x="310" y="443" width="51" height="31"/>
                                 <connections>
@@ -109,9 +115,6 @@
                                 <rect key="frame" x="102" y="53" width="397" height="325"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nose" translatesAutoresizingMaskIntoConstraints="NO" id="cir-X4-JMH">
-                                <rect key="frame" x="102" y="53" width="397" height="325"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="uAX-2D-W7b">
                                 <rect key="frame" x="102" y="53" width="397" height="325"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ARMS" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wkr-Rr-oUW">
@@ -197,12 +200,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <switch opaque="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6cA-Gd-wfp">
-                                <rect key="frame" x="310" y="410" width="51" height="31"/>
-                                <connections>
-                                    <action selector="SwitchOn:" destination="BYZ-38-t0r" eventType="valueChanged" id="yfO-yb-wM1"/>
-                                </connections>
-                            </switch>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="uAX-2D-W7b">
+                                <rect key="frame" x="102" y="53" width="397" height="325"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="325" id="MFB-JO-76G"/>
+                                    <constraint firstAttribute="width" constant="397" id="liX-Ww-QxN"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="MFB-JO-76G"/>
+                                        <exclude reference="liX-Ww-QxN"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
