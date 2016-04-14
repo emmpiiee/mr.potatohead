@@ -23,26 +23,28 @@ class ViewController: UIViewController {
     @IBOutlet weak var DressUp: UITextField!
     
     @IBAction func SwitchOn(sender: AnyObject) {
-        if (sender.tag == 0){
-            Arms.hidden = !Arms.hidden}
-        if (sender.tag == 1){
-            Ears.hidden = !Ears.hidden}
-        if (sender.tag == 2){
-            Eyebrows.hidden = !Eyebrows.hidden}
-        if (sender.tag == 3){
-            Eyes.hidden = !Eyes.hidden}
-        if (sender.tag == 4){
-            Glasses.hidden = !Glasses.hidden}
-        if (sender.tag == 5){
-            Hat.hidden = !Hat.hidden}
-        if (sender.tag == 6){
-            Mouth.hidden = !Mouth.hidden}
-        if (sender.tag == 7){
-            Moustache.hidden = !Moustache.hidden}
-        if (sender.tag == 8){
-            Nose.hidden = !Nose.hidden}
-        if (sender.tag == 9){
-            Shoes.hidden = !Shoes.hidden}
+        switch sender.tag{
+        case 0:
+            Arms.hidden = !Arms.hidden
+        case 1:
+            Ears.hidden = !Ears.hidden
+        case 2:
+            Eyebrows.hidden = !Eyebrows.hidden
+        case 3:
+            Eyes.hidden = !Eyes.hidden
+        case 4:
+            Glasses.hidden = !Glasses.hidden
+        case 5:
+            Hat.hidden = !Hat.hidden
+        case 6:
+            Mouth.hidden = !Mouth.hidden
+        case 7:
+            Moustache.hidden = !Moustache.hidden
+        case 8:
+            Nose.hidden = !Nose.hidden
+        default:
+            Shoes.hidden = !Shoes.hidden
+        }
     }
     
     @IBOutlet weak var NamePotato: UILabel!
@@ -50,6 +52,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         Arms.hidden = !Arms.hidden
         Ears.hidden = !Ears.hidden
         Eyebrows.hidden = !Eyebrows.hidden
