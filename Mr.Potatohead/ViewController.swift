@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    //Creates ImageViews from all bodyparts and the text DressUp
     @IBOutlet weak var Arms: UIImageView!
     @IBOutlet weak var Ears: UIImageView!
     @IBOutlet weak var Eyebrows: UIImageView!
@@ -22,8 +22,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var Shoes: UIImageView!
     @IBOutlet weak var DressUp: UITextField!
     
+    // All switches are tagged, each tag changes showing state of image of bodyparts
     @IBAction func SwitchOn(sender: AnyObject) {
-
         switch sender.tag{
         case 0:
             Arms.hidden = !Arms.hidden
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Hide all parts exept for the body part
         Arms.hidden = !Arms.hidden
         Ears.hidden = !Ears.hidden
         Eyebrows.hidden = !Eyebrows.hidden
@@ -67,9 +67,6 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
 
