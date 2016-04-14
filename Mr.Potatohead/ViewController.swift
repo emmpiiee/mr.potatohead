@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var DressUp: UITextField!
     
     @IBAction func SwitchOn(sender: AnyObject) {
+
         switch sender.tag{
         case 0:
             Arms.hidden = !Arms.hidden
@@ -52,7 +53,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
         Arms.hidden = !Arms.hidden
         Ears.hidden = !Ears.hidden
         Eyebrows.hidden = !Eyebrows.hidden
