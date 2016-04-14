@@ -320,6 +320,7 @@
                     </view>
                     <connections>
                         <outlet property="Arms" destination="8KI-kO-S7W" id="9IK-zU-fUA"/>
+                        <outlet property="DressUp" destination="Hed-dr-Ewf" id="Ivd-81-TdL"/>
                         <outlet property="Ears" destination="Vz6-sT-rbW" id="Lpz-bz-CtJ"/>
                         <outlet property="Eyebrows" destination="3B1-ub-Xpz" id="bBq-lw-jyj"/>
                         <outlet property="Eyes" destination="DmX-qJ-Q0W" id="12X-TI-Zzo"/>

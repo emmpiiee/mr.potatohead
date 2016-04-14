@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var DressUp: UITextField!
     
     @IBAction func SwitchOn(sender: AnyObject) {
-        print("aan of uit \(sender.tag)")
         if (sender.tag == 0){
             Arms.hidden = !Arms.hidden}
         if (sender.tag == 1){
@@ -51,6 +50,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        SwitchOn.setOn(false, animated:true)
+        Arms.hidden = !Arms.hidden
+        Ears.hidden = !Ears.hidden
+        Eyebrows.hidden = !Eyebrows.hidden
+        Eyes.hidden = !Eyes.hidden
+        Glasses.hidden = !Glasses.hidden
+        Hat.hidden = !Hat.hidden
+        Mouth.hidden = !Mouth.hidden
+        Moustache.hidden = !Moustache.hidden
+        Nose.hidden = !Nose.hidden
+        Shoes.hidden = !Shoes.hidden
     }
 
     override func didReceiveMemoryWarning() {
